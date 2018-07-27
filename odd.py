@@ -5,4 +5,4 @@ if(n>0):
     elif(n%2>0):
         print("Odd")
 else:
-  print("invalid")
+    print("invalid")
