@@ -1,2 +1,3 @@
-list=[int(N) for N in input().split()]
+N=int(input())
+list=[int(x) for x in input().split()]
 print(max(list))
