@@ -1,5 +1,5 @@
 import re
-x = input()
-new = re.sub('[\w]+' ,'', x)
+N = input()
+new = re.sub('[\w]+' ,'', N)
 print(len(new))
 
