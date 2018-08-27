@@ -7,4 +7,4 @@ elif K in list:
 	count=list.count(K)
 	print(count)
 else:
-	print("no")
+	print(0)
