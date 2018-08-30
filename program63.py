@@ -1,2 +1,2 @@
-list=[int(x) for x in input().split()]
-print(min(list))
+A=[int(x) for x in input().split()]
+print(min(A))
