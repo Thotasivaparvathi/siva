@@ -1,11 +1,11 @@
 N,M=map(int,input().split())
 if(N>M):
-	max1=N
+	greater=N
 else:
-	max1=M
+	greater=M
 while(1):
-	if(max1%N==0 and max1%M==0):
-		print(max1)
+	if(greater%N==0 and greater%M==0):
+		print(greater)
 		break
 	else:
-		max1+=1
+		greater+=1
